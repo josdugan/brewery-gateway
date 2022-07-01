@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.josdugan</groupId>
 	<artifactId>brewery-gateway</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>brewery-gateway</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -21,6 +21,10 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
